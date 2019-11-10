@@ -9,4 +9,9 @@ public class ButtonsController : MonoBehaviour
   public void GotoElementsPage() {
 		SceneManager.LoadScene("ElementsPage");
 	}
+
+  public void AddNewLocation() {
+    SceneManager.LoadScene("NewLocation");
+  }
+
 }
