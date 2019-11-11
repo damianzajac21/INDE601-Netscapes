@@ -7,16 +7,11 @@ public class ButtonsController : MonoBehaviour
 {
 
   public void GotoElementsPage() {
-		SceneManager.LoadScene("ElementPage");
+		SceneManager.LoadScene("ElementsPage");
 	}
 
-  public GameObject Panel;
-
-  public void OpenPanel() {
-    if(Panel != null) {
-      bool isActive = Panel.activeSelf;
-
-      Panel.SetActive(!isActive);
-    }
+  public void AddNewLocation() {
+    SceneManager.LoadScene("NewLocation");
   }
+
 }
