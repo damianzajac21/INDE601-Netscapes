@@ -2,3 +2,5 @@
 
 App Name: UniVis
 Building: Roland Levinsky Building
+
+Uses: Android Studio, Sceneform, ARCore
